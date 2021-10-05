@@ -21,53 +21,54 @@ namespace DevBuildDay2Exercises
                 if (numGrade == 99 || numGrade == 100)
                 {
                     grade = "A+";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade < 99 && numGrade >= 88) 
                 {
                     grade = "A";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade == 87 || numGrade == 86)
                 {
                     grade = "B+";
-                    Console.WriteLine($"Letter Grade : {grade}\n");
+                    
                 }
                 else if (numGrade < 86 && numGrade >= 80)
                 {
                     grade = "B";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade == 79 || numGrade == 78)
                 {
                     grade = "C+";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade < 78 && numGrade >= 67)
                 {
                     grade = "C";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade == 66 || numGrade == 65)
                 {
                     grade = "D+";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade < 65 && numGrade >= 60)
                 {
                     grade = "D";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade == 60 || numGrade == 59)
                 {
                     grade = "F+";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
                 else if (numGrade < 59 && numGrade >=0)
                 {
                     grade = "F";
-                    Console.WriteLine($"Letter Grade: {grade}\n");
+                    
                 }
+                Console.WriteLine($"Letter Grade: {grade}\n");
 
 
                 Console.Write("Continue? (y/n): ");
